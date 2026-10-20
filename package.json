@@ -1,0 +1,14 @@
+{
+  "name": "mf-panel",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Katabump starter for M&F Panel: user portal with sign-up, subscription dashboard and Xray panel. Upload package.json and index.js, then Restart.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -e \"process.env.SELFTEST='1';require('./index.js')\""
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
